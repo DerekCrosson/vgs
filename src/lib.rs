@@ -7,17 +7,18 @@
 /// # Examples
 ///
 /// ```
+/// use vgs::redact_via_reverse_proxy;
+///
 /// let original_data = "Mxolisi Makeba";
 /// let reverse_http_proxy_host = "company.environment.verygoodproxy.com";
-/// let answer = vgs::redact_via_reverse_proxy(original_data: original_data,
-///     reverse_http_proxy_host: reverse_http_proxy_host);
+/// let result = redact_via_reverse_proxy(
+///     original_data,
+///     reverse_http_proxy_host
+/// );
 ///
 /// assert_eq!("Mxolisi Makeba", original_data);
 /// ```
-pub fn redact_via_reverse_proxy(
-    original_data: &str,
-    _reverse_http_proxy_host: &str,
-) -> String {
+pub fn redact_via_reverse_proxy(original_data: &str, _reverse_http_proxy_host: &str) -> String {
     // TODO: Implement redacting sensitive information via the reverse proxy
     original_data.to_string()
 }
