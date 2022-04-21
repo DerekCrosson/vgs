@@ -1,7 +1,9 @@
 [package]
 name = "vgs"
+description = "API client for the Very Good Security API."
 version = "0.1.0"
 authors = ["Derek Crosson <derekcrosson18@gmail.com>"]
+license = "MIT OR Apache-2.0"
 edition = "2021"
 
 [lib]
