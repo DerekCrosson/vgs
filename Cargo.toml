@@ -1,12 +1,21 @@
 [package]
 name = "vgs"
 version = "0.1.0"
-authors = ["Derek Crosson"]
+authors = ["Derek Crosson <derekcrosson18@gmail.com>"]
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+path = "src/lib.rs"
+
+[[bin]]
+path = "src/main.rs"
+name = "vgs"
 
 [dependencies]
+serde = "1.0.136"
+
+[dev-dependencies]
+reqwest = "0.11.10"
 
 [profile.dev]
 opt-level = 1
