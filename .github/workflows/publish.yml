@@ -16,5 +16,5 @@ jobs:
           override: true
       - uses: katyo/publish-crates@v1
         with:
-          registry-token: ${{ secrets.CARGO_REGISTRY_TOKEN }}
+          registry-token: ${{ secrets.CRATES_TOKEN }}
           ignore-unpublished-changes: true
