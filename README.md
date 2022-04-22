@@ -4,6 +4,7 @@
 ![security audit](https://github.com/DerekCrosson/vgs/actions/workflows/daily_audit.yml/badge.svg)
 [![Crates.io](https://img.shields.io/crates/v/vgs.svg)](https://crates.io/crates/vgs)
 [![Documentation](https://docs.rs/vgs/badge.svg)](https://docs.rs/vgs/)
+[![DeepSource](https://deepsource.io/gh/DerekCrosson/vgs.svg/?label=active+issues&show_trend=true&token=I9MNPPIhwyEYVZdEWUNeO2mv)](https://deepsource.io/gh/DerekCrosson/vgs/?ref=repository-badge)
 
 This is a Rust crate that provides an API client for the [Very Good Security](https://www.verygoodsecurity.com) API.
 
