@@ -1,6 +1,6 @@
 //! # Very Good Security
 //! `vgs` is a Rust library for the [Very Good Security](https://verygoodsecurity.com) API.
-//! THIS PROJECT IS NOT COMPLETE, PLEASE DON'T
+//! THIS PROJECT IS NOT COMPLETE, PLEASE DON'T USE IT.
 
 /// Redacts sensitive data via the reverse proxy and stores it in a vault
 ///
